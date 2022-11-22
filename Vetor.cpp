@@ -18,8 +18,8 @@ Vetor Vetor::operator+(Vetor v)
 
 Vetor Vetor::operator-(Vetor v)
 {
-    int resultX = this->x + v.getX();
-    int resultY = this->y + v.getY();
+    int resultX = this->x - v.getX();
+    int resultY = this->y - v.getY();
     Vetor result(resultX, resultY);
     return result;
 }
